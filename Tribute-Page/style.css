@@ -1,2 +1,81 @@
-styl
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 
+body {
+  padding-top: 60px;
+  background-color: rgb(193, 174, 194);
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.title-header {
+  display: flex;
+  align-items: flex-end;
+  gap: 70px;
+  padding-bottom: 40px;
+}
+
+img {
+  width: 275px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.left-title h1 {
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: bold;
+  color: rgb(2, 21, 83);
+}
+
+.left-title h2 {
+  float: right;
+}
+
+main h2 {
+  text-transform: capitalize;
+  font-size: 80px;
+  font-weight: 20;
+}
+
+main p {
+  text-align: justify;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  word-spacing: 8px;
+  font-size: 25px;
+}
+
+.work-section {
+  line-height: 35px;
+}
+
+.work-section h3 {
+  font-size: 25px;
+}
+
+li {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.work-section div {
+  padding-left: 20px;
+}
+
+.side-link {
+  padding: 55px;
+  float: right;
+  font-size: 20px;
+}
+
+.side-link a {
+  text-decoration: none;
+}
