@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  line-height: 1.4;
+  font-size: 1rem;
+  /* color: #fff; */
+  font-weight: 400;
+
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+}
+
+.hero-container {
+  background-image: url(./images/developer.png);
+  min-height: 100%;
+  /* position: relative; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-title-text {
+  color: white;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-left: 16px;
+
+  /* text-align: center; */
+  /* line-height: 2.5rem; */
+}
+
+.hero-title-text h1 {
+  font-size: 72px;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* border: 1px solid red; */
+}
+
+.hero-title-text h1:hover {
+  color: rgb(8, 238, 100);
+}
+
+.hero-title-text h2 {
+  font-weight: 300;
+}
+
+.hero-title-text span {
+  font-size: 48px;
+}
+
+.hero-title-text span:hover {
+  color: rgb(117, 215, 158);
+}
+
+.text-black {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  padding: 8px;
+  text-transform: uppercase;
+}
+
+.section-skills {
+  padding: 26px;
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+}
+
+.card {
+  width: 320px;
+  height: 400px;
+  font-size: 12px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.04);
+  transition: 0.2s ease-in-out;
+}
+
+.card-content {
+  padding: 16px;
+  font-size: 18px;
+}
+
+.card-content h3 {
+  margin-bottom: 6px;
+}
+
+.info-section {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.infosection {
+  padding: 26px;
+  width: 100vw;
+  line-height: 1.8;
+}
+.infosection h3 {
+  font-size: 56px;
+  font-weight: 300;
+}
+
+.infosection p {
+  margin: 10px;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .section-skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-title-text h1 {
+    font-size: 62px;
+  }
+}
+
+@media (max-width: 786px) {
+  .section-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-title-text h1 {
+    font-size: 56px;
+  }
+  .info-section {
+    flex-direction: column;
+  }
+}
