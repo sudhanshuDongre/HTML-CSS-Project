@@ -5,6 +5,7 @@
 }
 
 body {
+  width: 100%;
   font-family: "Times New Roman", Times, serif;
   height: 100vh;
 }
@@ -13,7 +14,8 @@ body {
   background-color: #fff;
   width: 100%;
   box-shadow: 1px 0 5px rgb(169, 166, 166);
-  position: sticky;
+  position: sticky !important ;
+  /* scroll-be; */
   z-index: 100;
   top: 0;
 }
