@@ -85,7 +85,7 @@ button:hover {
 }
 
 .hero-section {
-  background-image: url(./images/hero_image.png);
+  background-image: url(images/hero_image.png);
   color: #fff;
   display: grid;
   height: 100vh;
@@ -147,7 +147,7 @@ button:hover {
 }
 
 .video-section {
-  background-image: url(./images/video.png);
+  background-image: url(images/video.png);
   min-height: 800px;
   display: grid;
   place-items: center;
